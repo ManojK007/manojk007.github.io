@@ -2,6 +2,15 @@
 @import url(./utilities/_variables.css);
 @import url(./utilities/_global.css);
 
+html,
+body{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #101010;
+}
+
 .header-area .main-menu .navbar .navbar-brand{
     padding: 0 1rem 0 5rem;
     color: whitesmoke;
