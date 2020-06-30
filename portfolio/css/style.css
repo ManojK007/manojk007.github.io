@@ -1,0 +1,81 @@
+@import url(./fonts.css);
+@import url(./utilities/_variables.css);
+@import url(./utilities/_global.css);
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem 0 5rem;
+    color: whitesmoke;
+}
+
+.header-area .main-menu .navbar{
+    padding: 1rem 8rem;
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px "arial";
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .site-banner{
+
+}
+
+.header-text{
+    color: whitesmoke;
+}
+
+.site-main .site-banner .site-header h3{
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-header h3::after{
+    content: "";
+    height: 2px;
+    width: 21vw;
+    background: whitesmoke;
+    display: inline-block;
+    margin-left: 6%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-header h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-header h4{
+    font-size: 1.3rem;
+}
+
+.fixed-block{
+    bottom:34px;
+    position:absolute;
+}
+
+.fixed-block.block-right{
+    right:0;
+}
+
+.list-unstyled.social-icons li{
+    padding: 7px;
+    margin-right: 2rem;
+}
+
+.fa-color{
+    color: whitesmoke;
+}
